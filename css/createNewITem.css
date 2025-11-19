@@ -1,0 +1,32 @@
+.create-products-page{
+
+}
+.create-products-page form{
+
+}
+.create-products-page input,
+.create-products-page select{
+    width: 100%;
+    height:40px;
+    padding: 8px;
+    border:1px solid #999;
+    margin: 10px 0;
+    display: block;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.create-products-page input[type="submit"]{
+    color:wheat;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(141, 67, 214);
+    font-size: 25px;
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+    line-height: 1px;
+}
+.create-products-page input[type="submit"]:hover{
+    background-color: black;
+    color:white
+}

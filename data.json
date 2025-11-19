@@ -1,0 +1,14 @@
+[
+    {
+        "name":"mhamaed",
+        "age":[1,2,3],
+        "tel":"01000633964"
+    },
+    {
+        "name":"ahmed",
+        "age":"21",
+        "tel":null,
+        "adta":false
+
+    }
+]

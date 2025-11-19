@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>updata the item </title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/createNewITem.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+    <div class="header-content">
+        <a href="/html/index.html" class="brand">Shopping Cart</a>
+        <nav>
+          <ul id="links">
+            <li><a href="/html/login.html">Sign In</a></li>
+            <li><a href="/html/register.html">Sign Up</a></li>
+            </ul>
+            <ul id="user" style="display: none;">
+            <li><a href="#" id="user-info"></a></li>
+            <li><a href="/html/fav.html">faviorte</a></li>
+            <li><a href="/html/myproducts.html">my product</a></li>
+            <li class="shopping">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="badge"></span>
+              <div class="carts-products">
+              <div></div>
+              <a href="/html/cardProducts.html">View All Products</a>
+              </div>
+            </li>
+            <li><a href="#" id="log-out">Log Out</a></li>
+          </ul>
+        </nav>
+    </div>
+    </div>
+</header>
+<section class="create-products-page">
+<div class="container">
+  <form id="updataForm">
+    <input type="file" name="" id="uploadImage">
+    <input type="text" placeholder="name ..." name="" id="productName">
+    <input type="text" placeholder="descrption..." name="" id="productdesc">
+    <select name="" id="productSize">
+      <option value="" hidden>select size</option>
+      <option value="small" >small</option>
+      <option value="medium" selected>medium</option>
+      <option value="large">large</option>
+    </select>
+    <input type="submit" value="updata">
+</form>
+</div>
+</section>
+<script src="../js/user.js"></script>
+<script src="../js/data.js"></script>
+<script src="../js/cartmenu.js"></script>
+<script src="../js/edit.js"></script>
+</body>
+</html>
