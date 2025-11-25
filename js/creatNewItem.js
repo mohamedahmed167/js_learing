@@ -37,7 +37,7 @@ function createProductFun(e) {
         productSize.value = "";
 
         setTimeout(() => {
-            window.location = "/html/index.html";
+            window.location = "/index.html";
         }, 500);
     } else {
         alert("enter the information");

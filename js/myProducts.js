@@ -61,13 +61,13 @@ drawProductsUI = function (product = []) {
 function editProduct(id) {
   localStorage.setItem("editProduct", id)
   setTimeout(() => {
-    window.location = "/html/edit.html";
+    window.location = "../html/edit.html";
   }, 500)
 }
 
 function saveItemData(id) {
   localStorage.setItem("productDetiles", id);
-  window.location = "/html/cardDetails.html";
+  window.location = "../html/cardDetails.html";
 }
 
 

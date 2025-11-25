@@ -203,7 +203,7 @@ function getUniqueArr(arr, filterType) {
 // shoping.addEventListener("click", openmenu);
 function saveItemData(id) {
   localStorage.setItem("productDetiles", id);
-  window.location = "/html/cardDetails.html";
+  window.location = "../html/cardDetails.html";
 }
 
 input.addEventListener("keyup", function (e) {
@@ -356,6 +356,6 @@ if (size) {
 function editProduct(id) {
   localStorage.setItem("editProduct", id)
   setTimeout(() => {
-    window.location = "/html/edit.html";
+    window.location = "../html/edit.html";
   }, 500)
 }

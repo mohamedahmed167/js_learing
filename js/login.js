@@ -15,7 +15,7 @@ function login(e){
           if ((getUser &&getUser.trim()===userName.value.trim()) && getPass && getPass ===pass.value.trim()   ) {
             console.log("Login successful ✅");
               setTimeout(()=>{
-                  window.location="/html/index.html";
+                  window.location="/index.html";
               },1500)
 
 

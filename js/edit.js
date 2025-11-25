@@ -30,7 +30,7 @@ function updataProductFun(e) {
     localStorage.setItem("products", JSON.stringify(product));
     console.log("After updata",getProduct)
     setTimeout(()=>{
-        window.location="/html/index.html"
+        window.location="/index.html"
     },500);
 }
 
